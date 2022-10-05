@@ -6,6 +6,8 @@ import { Thirteen } from "./13";
 import { Fifteen } from "./15";
 import { SwipeButton } from "./16";
 import { Seventeen } from "./17";
+import { Eighteen } from "./18";
+import { Nineteen } from "./19";
 import { TwoTen } from "./2.10";
 import { TwoEleven } from "./2.11";
 import { TwoSeven } from "./2.07";
@@ -21,6 +23,14 @@ export default function App() {
 
       <section>
         <h2>Buttons</h2>
+        <fieldset>
+          <legend>Swipe effect top to bottom with text</legend>
+          <Nineteen>BUTTON</Nineteen>
+        </fieldset>
+        <fieldset>
+          <legend>Button stretching effect</legend>
+          <Eighteen>BUTTON</Eighteen>
+        </fieldset>
         <fieldset>
           <legend>Creative button hover</legend>
           <Seventeen>Hover Me</Seventeen>
