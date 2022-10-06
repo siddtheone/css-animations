@@ -9,7 +9,7 @@ const Image = styled.img`
   transition: transform 1s;
 
   &:hover {
-    transform: translateZ(280px);
+    transform: translateZ(100px);
   }
 `;
 

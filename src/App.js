@@ -10,6 +10,7 @@ import { Eighteen } from "./18";
 import { Nineteen } from "./19";
 import { Twenty } from "./20";
 import { TwentyOne } from "./21";
+import { TwentyTwo } from "./22";
 import { TwoTen } from "./2.10";
 import { TwoEleven } from "./2.11";
 import { TwoSeven } from "./2.07";
@@ -25,6 +26,10 @@ export default function App() {
 
       <section>
         <h2>Buttons</h2>
+        <fieldset>
+          <legend>Text scaling button effect</legend>
+          <TwentyTwo>Hover Me</TwentyTwo>
+        </fieldset>
         <fieldset>
           <legend>Two layer swapping button effect</legend>
           <TwentyOne />
