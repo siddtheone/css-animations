@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const Nineteen = styled.button`
-  border: 5px solid purple;
-  background: orangered;
-  color: white;
+  border: 5px solid red;
   font-size: 32px;
   padding: 1em 2em;
   position: relative;
-  //   overflow: hidden;
+  overflow: hidden;
   isolation: isolate;
+  text-transform: uppercase;
 
   &::after {
     content: "YEAH";
@@ -17,8 +16,11 @@ export const Nineteen = styled.button`
     width: 100%;
     height: 100%;
     position: absolute;
-    background: yellow;
-    color: brown;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transform: translateY(-100%);
     transition: transform 0.4s;
   }
@@ -28,4 +30,5 @@ export const Nineteen = styled.button`
       transform: translateY(0%);
     }
   }
+  cursor: pointer;
 `;
