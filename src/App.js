@@ -6,6 +6,12 @@ import { Thirteen } from "./13";
 import { Fifteen } from "./15";
 import { SwipeButton } from "./16";
 import { Seventeen } from "./17";
+import { Eighteen } from "./18";
+import { Nineteen } from "./19";
+import { Twenty } from "./20";
+import { TwentyOne } from "./21";
+import { TwentyTwo } from "./22";
+import { TwentyThree } from "./23";
 import { TwoTen } from "./2.10";
 import { TwoEleven } from "./2.11";
 import { TwoSeven } from "./2.07";
@@ -21,6 +27,30 @@ export default function App() {
 
       <section>
         <h2>Buttons</h2>
+        <fieldset>
+          <legend>Circular swapping button effect</legend>
+          <TwentyThree>Hover Me</TwentyThree>
+        </fieldset>
+        <fieldset>
+          <legend>Text scaling button effect</legend>
+          <TwentyTwo>Hover Me</TwentyTwo>
+        </fieldset>
+        <fieldset>
+          <legend>Two layer swapping button effect</legend>
+          <TwentyOne />
+        </fieldset>
+        <fieldset>
+          <legend>Buttong glowing effect</legend>
+          <Twenty>Hover me</Twenty>
+        </fieldset>
+        <fieldset>
+          <legend>Swipe effect top to bottom with text</legend>
+          <Nineteen>HOVER ME</Nineteen>
+        </fieldset>
+        <fieldset>
+          <legend>Button stretching effect</legend>
+          <Eighteen>HOVER ME</Eighteen>
+        </fieldset>
         <fieldset>
           <legend>Creative button hover</legend>
           <Seventeen>Hover Me</Seventeen>
