@@ -13,6 +13,7 @@ import { TwentyOne } from "./21";
 import { TwentyTwo } from "./22";
 import { TwentyThree } from "./23";
 import { TwentyFour } from "./24";
+import { TwentyFive } from "./25";
 import { TwoTen } from "./2.10";
 import { TwoEleven } from "./2.11";
 import { TwoSeven } from "./2.07";
@@ -28,6 +29,10 @@ export default function App() {
 
       <section>
         <h2>Buttons</h2>
+        <fieldset>
+          <legend>Layers swapping from left to right button effect</legend>
+          <TwentyFive>button</TwentyFive>
+        </fieldset>
         <fieldset>
           <legend>Rotating 3 layers button effect</legend>
           <TwentyFour>Hover Me 1</TwentyFour>
