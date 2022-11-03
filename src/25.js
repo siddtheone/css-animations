@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { pseudoFull } from "./constants";
 
-export const TwentyFive = styled.button`
+const Button = styled.button`
   font-size: 24px;
   padding: 1rem 2rem;
   position: relative;
-  border: 2px solid yellow;
+  border: 2px solid deeppink;
   background: transparent;
   text-transform: uppercase;
   color: transparent;
@@ -14,8 +14,8 @@ export const TwentyFive = styled.button`
   &:after {
     ${pseudoFull}
     content: 'button';
-    color: yellow;
-    background: gray;
+    color: deeppink;
+    background: lightgreen;
     transition: all 0.5s;
   }
 
@@ -35,3 +35,13 @@ export const TwentyFive = styled.button`
     }
   }
 `;
+
+const Centered = styled.div`
+  text-align: center;
+`;
+
+export const TwentyFive = () => (
+  <Centered>
+    <Button>Hover Me</Button>
+  </Centered>
+);
