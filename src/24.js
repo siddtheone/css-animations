@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { pseudoFull } from "./constants";
 
 export const TwentyFour = styled.button`
   font-size: 32px;
@@ -11,14 +12,7 @@ export const TwentyFour = styled.button`
 
   &:before,
   &:after {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    ${pseudoFull}
     transform-origin: top;
     transition: all 0.5s;
     transform: rotateX(270deg);
