@@ -15,6 +15,7 @@ import { TwentyThree } from "./23";
 import { TwentyFour } from "./24";
 import { TwentyFive } from "./25";
 import { TwentySix } from "./26";
+import { TwentySeven } from "./27";
 import { TwoTen } from "./2.10";
 import { TwoEleven } from "./2.11";
 import { TwoSeven } from "./2.07";
@@ -30,6 +31,10 @@ export default function App() {
 
       <section>
         <h2>Buttons</h2>
+        <fieldset>
+          <legend>Double layers</legend>
+          <TwentySeven>Hover Me</TwentySeven>
+        </fieldset>
         <fieldset>
           <legend>3 circles to background button effect</legend>
           <TwentySix />
